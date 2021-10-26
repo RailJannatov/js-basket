@@ -1,0 +1,72 @@
+.bg-color {
+    background-color: #323030;
+}
+
+.basket {
+    i {
+        font-size: 30px;
+        color: rgb(212, 204, 204);
+    }
+
+    span {
+        color: #fff;
+    }
+}
+
+.ml-5 {
+    margin-left: 10px;
+}
+
+#gallery {
+    h4 {
+        display: inline;
+    }
+
+    .item {
+        padding: 13px;
+
+        button {
+            border: none;
+            border-radius: 18px;
+        }
+    }
+
+    img {
+        height: 200px;
+        max-width: 260px;
+    }
+
+}
+
+.d-none {
+    display: none;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background-color: #4e4b4bcf;
+
+    .modalBasket {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 450px;
+        height: 450px;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+
+
+        i {
+            font-size: 24px;
+            display: inline-block;
+            margin-top: -10px;
+            color: gray;
+        }
+    }
+
+}
